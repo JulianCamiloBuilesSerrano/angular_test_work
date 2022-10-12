@@ -1,0 +1,9 @@
+.line{
+  display: flex;
+  margin: 10px
+}
+.color{
+  height: 25px;
+  width: 25px;
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+<div *ngFor="let linea of listaLineas">
+  <div class="line">
+    <div class="color" [ngStyle]="{ 'background-color': linea.color}">
+      {{ linea.symbol }}
+    </div>
+    <div>
+      {{ linea.position }}
+    </div>
+  </div>
+</div>
